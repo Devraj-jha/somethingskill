@@ -1,0 +1,132 @@
+[
+  {
+    "id": "prog",
+    "name": "Programming fundamentals",
+    "category": "Programming"
+  },
+  {
+    "id": "dsa",
+    "name": "Data structures & algorithms",
+    "category": "Programming"
+  },
+  {
+    "id": "oop",
+    "name": "Object-oriented design",
+    "category": "Programming"
+  },
+  {
+    "id": "git",
+    "name": "Git & GitHub",
+    "category": "Tools"
+  },
+  {
+    "id": "linux",
+    "name": "Linux & command line",
+    "category": "Tools"
+  },
+  {
+    "id": "html",
+    "name": "HTML",
+    "category": "Frontend"
+  },
+  {
+    "id": "css",
+    "name": "CSS & responsive design",
+    "category": "Frontend"
+  },
+  {
+    "id": "js",
+    "name": "JavaScript",
+    "category": "Frontend"
+  },
+  {
+    "id": "http",
+    "name": "HTTP & REST APIs",
+    "category": "Backend"
+  },
+  {
+    "id": "node",
+    "name": "Server-side development",
+    "category": "Backend"
+  },
+  {
+    "id": "auth",
+    "name": "Authentication & security basics",
+    "category": "Backend"
+  },
+  {
+    "id": "db",
+    "name": "Databases & SQL",
+    "category": "Databases"
+  },
+  {
+    "id": "test",
+    "name": "Testing & debugging",
+    "category": "Tools"
+  },
+  {
+    "id": "deploy",
+    "name": "Deployment",
+    "category": "Tools"
+  },
+  {
+    "id": "python",
+    "name": "Python",
+    "category": "Programming"
+  },
+  {
+    "id": "stats",
+    "name": "Statistics",
+    "category": "Data"
+  },
+  {
+    "id": "excel",
+    "name": "Spreadsheets",
+    "category": "Data"
+  },
+  {
+    "id": "pandas",
+    "name": "Data wrangling",
+    "category": "Data"
+  },
+  {
+    "id": "viz",
+    "name": "Data visualisation",
+    "category": "Data"
+  },
+  {
+    "id": "net",
+    "name": "Computer networks",
+    "category": "Security"
+  },
+  {
+    "id": "crypto",
+    "name": "Cryptography basics",
+    "category": "Security"
+  },
+  {
+    "id": "vuln",
+    "name": "Web vulnerabilities (OWASP)",
+    "category": "Security"
+  },
+  {
+    "id": "comm",
+    "name": "Communication",
+    "category": "Soft skills"
+  },
+  {
+    "id": "team",
+    "name": "Teamwork",
+    "category": "Soft skills"
+  },
+  {
+    "id": "solve",
+    "name": "Problem solving",
+    "category": "Soft skills"
+  },
+  {
+    "id": "time",
+    "name": "Time management",
+    "category": "Soft skills"
+  }
+]

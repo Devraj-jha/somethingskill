@@ -1,0 +1,21 @@
+[
+  {
+    "id": "43d019e8c6c4605d",
+    "role": "admin",
+    "name": "Demo Administrator",
+    "email": "admin@skillpath.demo",
+    "password": "5da3047610757aab05374791877c847e:949a728cafae31eca183c775543e58ed5a36cb427a94277be1626b4ad5510ec80c48b92afcb6ecbd0941c68fa7bb30c84fca67db82587c7d378b15a6a9709e20",
+    "created": "2026-11-25T05:11:05.035Z"
+  },
+  {
+    "id": "115b512bcf23e57e",
+    "role": "student",
+    "name": "Aarav Sharma (demo)",
+    "email": "student@skillpath.demo",
+    "password": "3d808b5fe39031376cb9b0a531847b3f:e161120e99958534e2795a2b953f6f2ccf6c07de6a72eb8e5e8dc2c8b717fac06eb481871747fa07f3c1fabfd7cabf9c418910385162cd889f355865677145f9",
+    "created": "2026-11-25T05:11:05.068Z",
+    "college": "Demo Institute of Technology",
+    "programme": "B.Tech CSE",
+    "semester": 5
+  }
+]

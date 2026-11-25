@@ -1,0 +1,420 @@
+[
+  {
+    "id": "software-developer",
+    "title": "Software Developer",
+    "category": "Software",
+    "description": "Designs, builds and maintains software systems using sound engineering practice.",
+    "tools": [
+      "Git",
+      "VS Code",
+      "Docker",
+      "Postman"
+    ],
+    "prerequisites": [
+      "Basic programming",
+      "Discrete mathematics"
+    ],
+    "skills": [
+      {
+        "skill": "prog",
+        "req": 3,
+        "weight": 5,
+        "stage": 1
+      },
+      {
+        "skill": "dsa",
+        "req": 2,
+        "weight": 5,
+        "stage": 1
+      },
+      {
+        "skill": "oop",
+        "req": 2,
+        "weight": 4,
+        "stage": 2
+      },
+      {
+        "skill": "git",
+        "req": 2,
+        "weight": 3,
+        "stage": 1
+      },
+      {
+        "skill": "db",
+        "req": 2,
+        "weight": 3,
+        "stage": 2
+      },
+      {
+        "skill": "test",
+        "req": 2,
+        "weight": 3,
+        "stage": 3
+      },
+      {
+        "skill": "http",
+        "req": 2,
+        "weight": 2,
+        "stage": 2
+      },
+      {
+        "skill": "solve",
+        "req": 3,
+        "weight": 4,
+        "stage": 1
+      },
+      {
+        "skill": "team",
+        "req": 2,
+        "weight": 2,
+        "stage": 3
+      },
+      {
+        "skill": "comm",
+        "req": 2,
+        "weight": 2,
+        "stage": 3
+      }
+    ],
+    "projects": [
+      {
+        "name": "Library management system",
+        "description": "CRUD app with search, issue and return rules.",
+        "skills": [
+          "oop",
+          "db"
+        ],
+        "level": "Intermediate"
+      },
+      {
+        "name": "CLI task tracker with tests",
+        "description": "Command-line tool with unit tests and clean modules.",
+        "skills": [
+          "prog",
+          "test"
+        ],
+        "level": "Beginner"
+      },
+      {
+        "name": "REST service with CI",
+        "description": "Documented API with automated tests and a pipeline.",
+        "skills": [
+          "http",
+          "test",
+          "git"
+        ],
+        "level": "Advanced"
+      }
+    ]
+  },
+  {
+    "id": "web-developer",
+    "title": "Web Developer",
+    "category": "Web",
+    "description": "Builds responsive, accessible websites and full-stack web applications.",
+    "tools": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Node.js",
+      "Git"
+    ],
+    "prerequisites": [
+      "Programming fundamentals"
+    ],
+    "skills": [
+      {
+        "skill": "html",
+        "req": 3,
+        "weight": 4,
+        "stage": 1
+      },
+      {
+        "skill": "css",
+        "req": 3,
+        "weight": 4,
+        "stage": 1
+      },
+      {
+        "skill": "prog",
+        "req": 2,
+        "weight": 3,
+        "stage": 1
+      },
+      {
+        "skill": "js",
+        "req": 3,
+        "weight": 5,
+        "stage": 2
+      },
+      {
+        "skill": "git",
+        "req": 2,
+        "weight": 3,
+        "stage": 2
+      },
+      {
+        "skill": "http",
+        "req": 2,
+        "weight": 4,
+        "stage": 2
+      },
+      {
+        "skill": "db",
+        "req": 2,
+        "weight": 3,
+        "stage": 2
+      },
+      {
+        "skill": "node",
+        "req": 2,
+        "weight": 3,
+        "stage": 3
+      },
+      {
+        "skill": "auth",
+        "req": 2,
+        "weight": 3,
+        "stage": 3
+      },
+      {
+        "skill": "test",
+        "req": 2,
+        "weight": 2,
+        "stage": 3
+      },
+      {
+        "skill": "deploy",
+        "req": 2,
+        "weight": 2,
+        "stage": 3
+      }
+    ],
+    "projects": [
+      {
+        "name": "Personal portfolio website",
+        "description": "Responsive multi-section portfolio with accessible markup.",
+        "skills": [
+          "html",
+          "css"
+        ],
+        "level": "Beginner"
+      },
+      {
+        "name": "Weather dashboard",
+        "description": "Fetch API data and render charts and forecasts.",
+        "skills": [
+          "js",
+          "http"
+        ],
+        "level": "Intermediate"
+      },
+      {
+        "name": "Full-stack task manager",
+        "description": "Login, tasks and persistence with a REST API.",
+        "skills": [
+          "node",
+          "db",
+          "auth"
+        ],
+        "level": "Advanced"
+      }
+    ]
+  },
+  {
+    "id": "data-analyst",
+    "title": "Data Analyst",
+    "category": "Data",
+    "description": "Turns raw data into insight using statistics, SQL and visualisation.",
+    "tools": [
+      "Excel",
+      "SQL",
+      "Python",
+      "Pandas",
+      "Power BI"
+    ],
+    "prerequisites": [
+      "School-level statistics"
+    ],
+    "skills": [
+      {
+        "skill": "excel",
+        "req": 2,
+        "weight": 3,
+        "stage": 1
+      },
+      {
+        "skill": "stats",
+        "req": 3,
+        "weight": 5,
+        "stage": 1
+      },
+      {
+        "skill": "python",
+        "req": 2,
+        "weight": 4,
+        "stage": 1
+      },
+      {
+        "skill": "db",
+        "req": 3,
+        "weight": 5,
+        "stage": 2
+      },
+      {
+        "skill": "pandas",
+        "req": 2,
+        "weight": 4,
+        "stage": 2
+      },
+      {
+        "skill": "viz",
+        "req": 3,
+        "weight": 4,
+        "stage": 2
+      },
+      {
+        "skill": "comm",
+        "req": 3,
+        "weight": 4,
+        "stage": 3
+      },
+      {
+        "skill": "solve",
+        "req": 2,
+        "weight": 3,
+        "stage": 3
+      }
+    ],
+    "projects": [
+      {
+        "name": "Sales dashboard in a spreadsheet",
+        "description": "Clean data and build pivot tables and charts.",
+        "skills": [
+          "excel",
+          "viz"
+        ],
+        "level": "Beginner"
+      },
+      {
+        "name": "Exploratory analysis notebook",
+        "description": "Analyse a public dataset and report findings.",
+        "skills": [
+          "python",
+          "pandas",
+          "stats"
+        ],
+        "level": "Intermediate"
+      },
+      {
+        "name": "SQL reporting suite",
+        "description": "Design queries answering ten business questions.",
+        "skills": [
+          "db",
+          "viz"
+        ],
+        "level": "Advanced"
+      }
+    ]
+  },
+  {
+    "id": "cybersecurity-associate",
+    "title": "Cybersecurity Associate",
+    "category": "Security",
+    "description": "Helps protect systems by monitoring, testing and hardening them.",
+    "tools": [
+      "Wireshark",
+      "Nmap",
+      "Burp Suite",
+      "Linux"
+    ],
+    "prerequisites": [
+      "Operating systems basics"
+    ],
+    "skills": [
+      {
+        "skill": "net",
+        "req": 3,
+        "weight": 5,
+        "stage": 1
+      },
+      {
+        "skill": "linux",
+        "req": 2,
+        "weight": 4,
+        "stage": 1
+      },
+      {
+        "skill": "prog",
+        "req": 1,
+        "weight": 2,
+        "stage": 1
+      },
+      {
+        "skill": "crypto",
+        "req": 2,
+        "weight": 4,
+        "stage": 2
+      },
+      {
+        "skill": "vuln",
+        "req": 2,
+        "weight": 5,
+        "stage": 2
+      },
+      {
+        "skill": "http",
+        "req": 2,
+        "weight": 3,
+        "stage": 2
+      },
+      {
+        "skill": "python",
+        "req": 2,
+        "weight": 3,
+        "stage": 3
+      },
+      {
+        "skill": "auth",
+        "req": 2,
+        "weight": 3,
+        "stage": 3
+      },
+      {
+        "skill": "comm",
+        "req": 2,
+        "weight": 2,
+        "stage": 3
+      }
+    ],
+    "projects": [
+      {
+        "name": "Home network traffic analysis",
+        "description": "Capture and explain traffic patterns.",
+        "skills": [
+          "net",
+          "linux"
+        ],
+        "level": "Beginner"
+      },
+      {
+        "name": "Password hashing demo",
+        "description": "Compare hashing schemes and salting.",
+        "skills": [
+          "crypto",
+          "auth"
+        ],
+        "level": "Intermediate"
+      },
+      {
+        "name": "Vulnerable app audit",
+        "description": "Test a practice app and write a findings report.",
+        "skills": [
+          "vuln",
+          "http"
+        ],
+        "level": "Advanced"
+      }
+    ]
+  }
+]

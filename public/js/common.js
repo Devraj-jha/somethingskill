@@ -1,0 +1,9 @@
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+async function api(p,method='GET',data){const r=await fetch('/api/'+p,{method,credentials:'same-origin',headers:{'Content-Type':'application/json','X-Requested-With':'skillpath'},body:data?JSON.stringify(data):undefined});
+  const j=await r.json().catch(()=>({}));if(!r.ok){const e=new Error(j.error||'Request failed');e.status=r.status;throw e}return j}
+function toast(m,err){let t=document.getElementById('toasts');if(!t){t=document.createElement('div');t.id='toasts';t.setAttribute('role','status');document.body.append(t)}
+  const d=document.createElement('div');d.className='toast'+(err?' err':'');d.textContent=m;t.append(d);setTimeout(()=>d.remove(),3800)}
+function bindTheme(){const L=()=>document.documentElement.dataset.theme==='dark';const ic=()=>L()?'<svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M5 5l1.5 1.5M17.5 17.5L19 19M5 19l1.5-1.5M17.5 6.5L19 5"/></svg> Light':'<svg viewBox="0 0 24 24"><path d="M20 14A8 8 0 0110 4a8 8 0 1010 10z"/></svg> Dark';
+ document.querySelectorAll('[data-theme-btn]').forEach(b=>{b.innerHTML=ic();b.setAttribute('aria-label','Switch colour theme');b.onclick=()=>{const t=L()?'light':'dark';document.documentElement.dataset.theme=t;try{localStorage.setItem('sp-theme',t)}catch(e){}document.querySelectorAll('[data-theme-btn]').forEach(x=>x.innerHTML=ic())}})}
+addEventListener('DOMContentLoaded',bindTheme);
+const LOGO='<svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="8" fill="#163A52"/><path d="M7 23h5v-5H7zM13.5 23h5v-9h-5zM20 23h5V9h-5z" fill="#1D9A9A"/><path d="M7 14l7-5 4 3 7-7" stroke="#D89632" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>';
